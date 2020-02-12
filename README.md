@@ -44,7 +44,7 @@ apt-get install awscli jq
 
 #### Redhat / Fedora / Centos / Amazon Linux :- ####
 
-yum install awscli  jq
+yum install awscli  jq python3-devel
 
 #### Note: ####
 These packages are needed for Aaia_aws_collector.sh script. Ensure these packages are present in the base system from where the collector script is being run.
